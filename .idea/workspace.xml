@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ac9478-fdb6-4263-b4e1-342cf5231cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BOJ_11726.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ_1924.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ_1260.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/helloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Picnic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algospot_Picnic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algospot_unknowned2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algospot_solution/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algospot_solution/NewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algospot_solution/Picnic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algospot_solution/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algospot_solution/helloWorld.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,14 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algospot_unknowned2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="190">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#recursivePickNum#0;class#helloWorld#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ_1260.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+              <folding>
+                <element signature="e#834#843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/BOJ_11726.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -62,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/BOJ_1924.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -85,6 +98,7 @@
       <find>board</find>
       <find>has</find>
       <find>print</find>
+      <find>dfs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/NewTest.java" />
         <option value="$PROJECT_DIR$/src/Algospot_unknowned.java" />
         <option value="$PROJECT_DIR$/src/Algospot_unknowned2.java" />
+        <option value="$PROJECT_DIR$/src/BOJ_1240.java" />
+        <option value="$PROJECT_DIR$/src/BOJ_1260.java" />
       </list>
     </option>
   </component>
@@ -166,14 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ_11726">
-    <configuration name="Algospot_Picnic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algospot_Picnic" />
-      <module name="algospot_solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ_1260">
     <configuration name="Algospot_unknowned" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algospot_unknowned" />
       <module name="algospot_solution" />
@@ -183,6 +192,13 @@
     </configuration>
     <configuration name="BOJ_11726" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_11726" />
+      <module name="algospot_solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1260" />
       <module name="algospot_solution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1260" />
         <item itemvalue="Application.BOJ_11726" />
         <item itemvalue="Application.BOJ_1924" />
         <item itemvalue="Application.Algospot_unknowned" />
         <item itemvalue="Application.NewTest" />
-        <item itemvalue="Application.Algospot_Picnic" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +266,7 @@
       <workItem from="1597129830322" duration="4000" />
       <workItem from="1604133989094" duration="3492000" />
       <workItem from="1604823475776" duration="3000" />
-      <workItem from="1606292575497" duration="4010000" />
+      <workItem from="1606292575497" duration="13028000" />
     </task>
     <task id="LOCAL-00001" summary="PICNIC 알고리즘 완성, RTE 오류 발생">
       <created>1561399162837</created>
@@ -263,19 +279,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131479000" />
+    <option name="totallyTimeSpent" value="140497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.18389262" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.502" side_tool="true" weight="0.22483222" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32348993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32348993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40268457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,14 +361,14 @@
     <entry file="file://$PROJECT_DIR$/src/BOJ_1924.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ_11726.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -382,11 +398,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algospot_unknowned2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="190">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#recursivePickNum#0;class#helloWorld#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ_1260.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#834#843#0" expanded="true" />
           </folding>
         </state>
       </provider>
